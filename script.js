@@ -51,7 +51,7 @@ function startAutoScroll() {
       currentIndex = (currentIndex + 1) % totalCards;
       goToCard(currentIndex);
     }
-  }, 3000); // Muda a cada 3 segundos
+  }, 5000); // Muda a cada 3 segundos
 }
 
 // Parar auto-scroll temporariamente
